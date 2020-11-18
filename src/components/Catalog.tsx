@@ -18,7 +18,7 @@ const Catalog: React.FC = () => {
 
   const handleAddProductToCart = useCallback((product: IProduct) => {
     dispatch(addProductToCart(product))
-  }, [])
+  }, [dispatch])
 
   return (
     <main>
