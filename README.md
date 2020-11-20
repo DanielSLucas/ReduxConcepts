@@ -1,35 +1,35 @@
 <h1 align=center>Redux &amp; Redux Saga</h1>
 
-<p align=center>Um breve resumo sobre _Redux_ e _Redux Saga_.</p>
+<p align=center>Um breve resumo sobre Redux e Redux Saga.</p>
 
 
 ## Sumário
 
-1.  [Conceitos](#_Toc56761150)
-    - [Gerenciamento de estado](#_Toc56761151)
-    - [Ferramentas disponíveis](#_Toc56761152)
+1.  [Conceitos](#conceitos)
+    - [Gerenciamento de estado](#gerenciamento-de-estado)
+    - [Ferramentas disponíveis](#ferramentas-disponíveis)
 
-2.  [Redux na prática 2](#_Toc56761153)
-    - [Arquitetura flux 2](#_Toc56761154)
-    - [Configurando Store 3](#_Toc56761155)
-    - [Usando os reducers 4](#_Toc56761156)
-    - [Estado inicial do Reducer 6](#_Toc56761157)
-    - [Criando servidor JSON 7](#_Toc56761158)
-    - [Trabalhando com actions 8](#_Toc56761159)
-    - [Alterando o estado 10](#_Toc56761160)
-    - [Tipagens no redux 10](#_Toc56761161)
-    - [Utilizando Immer 12](#_Toc56761162)
-    - [Aumentando quantidade 13](#_Toc56761163)
-    - [Debugando com o Devtools 14](#_Toc56761164)
-    - [Abstraindo item do catálogo 15](#_Toc56761165)
+2.  [Redux na prática](#redux-na-prática)
+    - [Arquitetura flux](#arquitetura-flux)
+    - [Configurando Store](#configurando-store)
+    - [Usando os reducers](#usando-os-reducers)
+    - [Estado inicial do Reducer](#estado-inicial-do-reducer)
+    - [Criando servidor JSON](#criando-servidor-json)
+    - [Trabalhando com actions](#trabalhando-com-actions)
+    - [Alterando o estado](#alterando-o-estado)
+    - [Tipagens no redux](#tipagens-no-redux)
+    - [Utilizando Immer](#utilizando-immer)
+    - [Aumentando quantidade](#aumentando-quantidade)
+    - [Debugando com o Devtools](#debugando-com-o-devtools)
+    - [Abstraindo item do catálogo](#abstraindo-item-do-catálogo)
 
-3.  [Redux Saga 16](#_Toc56761166)
-    - [Configurando Redux Saga 16](#_Toc56761167)
-    - [Obtendo quantidade do carrinho 18](#_Toc56761168)
-    - [Dividindo as _actions_ 19](#_Toc56761169)
-    - [Finalizando checagem do estoque 20](#_Toc56761170)
-    - [Sinalizando falta de estoque 21](#_Toc56761171)
-    - [Criando action types 22](#_Toc56761172)
+3.  [Redux Saga](#redux-saga)
+    - [Configurando Redux Saga](#configurando-redux-saga)
+    - [Obtendo quantidade do carrinho](#obtendo-quantidade-do-carrinho)
+    - [Dividindo as _actions_](#dividindo-as-actions)
+    - [Finalizando checagem do estoque](#finalizando-checagem-do-estoque)
+    - [Sinalizando falta de estoque](#sinalizando-falta-de-estoque)
+    - [Criando action types](#criando-action-types)
 
 # Conceitos
 
