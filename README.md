@@ -1,14 +1,12 @@
-<p align=center>Redux &amp; Redux Saga</p>
+<p align=center><h1>Redux &amp; Redux Saga<h1></p>
+<p align=center>Um breve resumo sobre _Redux_ e _Redux Saga_.</p>
 
-Um breve resumo sobre _Redux_ e _Redux Saga_.
 
 # Sumário
 
-[Conceitos 1](#_Toc56761150)
-
-[Gerenciamento de estado 1](#_Toc56761151)
-
-[Ferramentas disponíveis 1](#_Toc56761152)
+1. [Conceitos 1](#_Toc56761150)
+  - [Gerenciamento de estado 1](#_Toc56761151)
+  - [Ferramentas disponíveis 1](#_Toc56761152)
 
 [Redux na prática 2](#_Toc56761153)
 
