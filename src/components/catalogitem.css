@@ -4,6 +4,9 @@ article {
   align-items: center;
   justify-content: center;
   
+  width: 90%;
+  height: auto;
+
   padding: 0.5rem;
   margin: 0.5rem;
   background-color: #29292e;
@@ -11,9 +14,15 @@ article {
   border-radius: 8px;
 }
 
+article img {
+  width: 100%;
+  height: auto;
+}
+
 article strong {
   font-weight: bold;
   font-size: 18px;
+  margin-top: 1rem;
 }
 
 article span {
@@ -32,4 +41,10 @@ article button {
   
   font-size: 16px;
   font-weight: 500;
+
+  transition: background-color 0.2s;
+}
+
+article button:hover {
+  background-color: #1a73e8c7;
 }
