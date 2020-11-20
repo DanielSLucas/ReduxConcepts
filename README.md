@@ -37,7 +37,7 @@
 
 O _redux_ é uma biblioteca de gerenciamento de estado dentro do _react_, que pode substituir a _context api_ do próprio react, porém com uma performance superior e alguns recursos interessantes.
 
-Vale ressaltar que este curso não é tão atual, e neste momento a _context api_ provavelmente vai conseguir resolver muito bem a maior parte dos problemas quanto ao gerenciamento de estado que você tiver. Mas ainda assim é importante ter conhecimento sobre o _redux_, pois pode ser necessário no mercado de trabalho.
+Vale ressaltar que, atualmente, a _context api_ provavelmente vai conseguir resolver muito bem a maior parte dos problemas quanto ao gerenciamento de estado que você tiver. Mas ainda assim é importante ter conhecimento sobre o _redux_, pois pode ser necessário no mercado de trabalho.
 
 ## Ferramentas disponíveis
 
