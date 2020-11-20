@@ -1,4 +1,4 @@
-<center><h1>Redux<h1></center>
+<h1 aling="center">Redux & Redux Saga<h1>
 
 # Conceitos
 
