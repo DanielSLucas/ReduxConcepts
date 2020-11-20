@@ -23,6 +23,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   
   return (
     <article>
+      <img src={product.img_url} alt={product.title}/>
+
       <strong>{product.title}</strong>
       <span>${product.price}</span>
 
@@ -34,7 +36,7 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
       </button>
 
       { hasFailedStockCheck && (
-        <span style={{ color: 'red'}}>Falta de estoque</span>
+        <span style={{ color: '#ff0f0f', fontWeight: 500}}>Falta de estoque</span>
       )}
     </article>
   );

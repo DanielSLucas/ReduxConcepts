@@ -3,17 +3,20 @@
     {
       "id": 1,
       "title": "Casaco maneiro",
-      "price": 290.90
+      "price": 290.90,
+      "img_url": "https://ae01.alicdn.com/kf/HTB1GkFsbEvrK1RjSspcq6zzSXXaX/Programador-pequeno-logotipo-pul-ver-casacos-github-moletom-mulher-jaqueta-masculina-outono-e-inverno-com-bon.jpg_q50.jpg"
     },
     {
       "id": 2,
       "title": "Óculos barato",
-      "price": 20.90
+      "price": 20.90,
+      "img_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSrx7jqT4yDo0hDgge4q5SWvYKajbVTi19WT8xkBCkDDoYnNmkab2iZ5MkrZPkSp_l3zqD3RkKljh4lFEU2dVI3EmybYSx-hQ&usqp=CAE"
     },
     {
       "id": 3,
       "title": "Tênis da moda",
-      "price": 500.00
+      "price": 500.00,
+      "img_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSQ9dn_XKFA2MvkY7cf3O-1vnrmFi_5jUw6aqO_EF6s13_SV8rspPn542JQgnRxOs15pj9MW_nQuTnl7KpYOmopVjLnOuKnKzRXlaA9rK-hh-NPSuA5B3XH&usqp=CAE"
     }
   ],
   "stock": [
