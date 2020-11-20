@@ -3,14 +3,13 @@
 <p align=center>Um breve resumo sobre _Redux_ e _Redux Saga_.</p>
 
 
-# Sumário
+## Sumário
 
 1.  [Conceitos](#_Toc56761150)
     - [Gerenciamento de estado](#_Toc56761151)
     - [Ferramentas disponíveis](#_Toc56761152)
 
 2.  [Redux na prática 2](#_Toc56761153)
-
     - [Arquitetura flux 2](#_Toc56761154)
     - [Configurando Store 3](#_Toc56761155)
     - [Usando os reducers 4](#_Toc56761156)
@@ -24,19 +23,13 @@
     - [Debugando com o Devtools 14](#_Toc56761164)
     - [Abstraindo item do catálogo 15](#_Toc56761165)
 
-[Redux Saga 16](#_Toc56761166)
-
-[Configurando Redux Saga 16](#_Toc56761167)
-
-[Obtendo quantidade do carrinho 18](#_Toc56761168)
-
-[Dividindo as _actions_ 19](#_Toc56761169)
-
-[Finalizando checagem do estoque 20](#_Toc56761170)
-
-[Sinalizando falta de estoque 21](#_Toc56761171)
-
-[Criando action types 22](#_Toc56761172)
+3.  [Redux Saga 16](#_Toc56761166)
+    - [Configurando Redux Saga 16](#_Toc56761167)
+    - [Obtendo quantidade do carrinho 18](#_Toc56761168)
+    - [Dividindo as _actions_ 19](#_Toc56761169)
+    - [Finalizando checagem do estoque 20](#_Toc56761170)
+    - [Sinalizando falta de estoque 21](#_Toc56761171)
+    - [Criando action types 22](#_Toc56761172)
 
 # Conceitos
 
@@ -110,7 +103,7 @@ Limpe a toda a estrutura, deixando apenas um &quot;hello world&quot; sem estiliz
 
 Agora vamos instalar o _redux_ no projeto, junto a integração dele com o react.
 
-yarn add redux react-redux
+`yarn add redux react-redux`
 
 Feito isso, dentro da pasta _src_ vamos criar uma pasta &quot;_store_&quot; com um arquivo _index.ts_.
 
@@ -188,7 +181,7 @@ Como de início não teríamos nada dentro do carrinho, definimos uma constante 
 
 Para testarmos nossa aplicação, sem ter uma _api_ para fazermos consultas, utilizaremos um servidor json para simular uma _api_.
 
-Instale: yarn add -D json-server
+Instale: `yarn add -D json-server`
 
 Feito isso, na raiz do projeto vamos criar um arquivo _server.json_, contendo os dados dos produtos e do estoque que vamos utilizar em nossa aplicação.
 
@@ -198,7 +191,7 @@ Feito isso vamos criar um _script_ para iniciar esse servidor json na porta 3333
 
 ![](RackMultipart20201120-4-1d4cs1v_html_81889a6dd9975de7.png)
 
-Com isso basta executar _yarn server_, para executar o servidor.
+Com isso basta executar _`yarn server`_, para executar o servidor.
 
 Para fazer as requisições para o servidor vamos utilizar o _axios_. Instalamos, criamos uma pastar _services_ e dentro um arquivo _api.ts_.
 
@@ -310,7 +303,7 @@ Para debugar aplicação que utiliza _redux_, vamos utilizar a extensão do nave
 
 E então instalar no projeto:
 
-yarn add redux-devtools-extension
+`yarn add redux-devtools-extension`
 
 Agora no arquivo _index_ da pasta _store_:
 
@@ -348,7 +341,7 @@ Agora no componente de catalogo o código ficou assim:
 
 Instale o _redux saga_ no projeto:
 
-yarn add redux-saga
+`yarn add redux-saga`
 
 Feito isso, dentro do index da pasta _store_, vamos fazer o seguinte:
 
