@@ -1,4 +1,4 @@
-Redux
+<center><h1>Redux<h1></center>
 
 # Conceitos
 
