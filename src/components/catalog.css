@@ -1,0 +1,27 @@
+main {
+  background: #202024;
+  height: 50%;
+  width: 30%;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+main h1 {
+  color: #fafafc;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: Fira code, Arial, Helvetica, sans-serif;
+
+  margin-top: 40px;
+}
+
+main .catalog-items-container {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

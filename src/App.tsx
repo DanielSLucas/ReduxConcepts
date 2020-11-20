@@ -5,11 +5,16 @@ import Catalog from './components/Catalog';
 
 import store from './store';
 
+import './app.css';
+
 function App() {
   return (
     <Provider store={store}>
-      <Catalog />
-      <Cart />
+      <div className="app-content-wrapper">
+        <Catalog />
+        <div className="vertical-divisor" />
+        <Cart />
+      </div>
     </Provider>
   );
 }

@@ -1,0 +1,44 @@
+.cart-content-wrapper {
+  background: #202024;
+  height: 50%;
+  width: 30%;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.cart-content-wrapper h1 {
+  color: #fafafc;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: Fira code, Arial, Helvetica, sans-serif;
+
+  margin-top: 40px;
+}
+
+.cart-content-wrapper table {
+  margin-top: 80px;
+  width: 80%;
+  text-align: center;
+}
+
+.cart-content-wrapper table thead tr, 
+.cart-content-wrapper table tfoot tr {
+  background-color: #151516;
+}
+
+.cart-content-wrapper table, th, td {
+  border: 1px solid #424148;
+  border-collapse: collapse;
+}
+
+.cart-content-wrapper table th, td {
+  padding: 0.5rem;
+}
+
+.cart-content-wrapper table tfoot td {
+  font-weight: bold;
+}

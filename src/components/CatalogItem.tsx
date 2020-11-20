@@ -4,6 +4,8 @@ import { IState } from '../store';
 import { addProductToCartRequest } from '../store/modules/cart/actions';
 import { IProduct } from '../store/modules/cart/types';
 
+import './catalogitem.css';
+
 interface CatalogItemProps {
   product: IProduct;
 }
@@ -21,8 +23,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   
   return (
     <article>
-      <strong>{product.title}</strong> {" - "}
-      <span>{product.price}</span> {"  "}
+      <strong>{product.title}</strong>
+      <span>${product.price}</span>
 
       <button
         type="button"
