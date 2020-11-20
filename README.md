@@ -77,7 +77,7 @@ Outra opção mais simples e recente de gerenciamento de estado.
 
 ## Arquitetura flux
 
-![](RackMultipart20201120-4-1d4cs1v_html_9b7faeeae004d02e.png)
+![Exemplo de arquitetura flux](./readmeImgs/arquiteturaFlux.png)
 
 Exemplo de arquitetura de fluxo com redux.
 
@@ -335,7 +335,7 @@ Agora no componente de catalogo o código ficou assim:
 
 # Redux Saga
 
-É um _middleware_, ou seja uma função intermediária, que é executada entre o disparo da _action_ e o reducer.
+É um _middleware_, ou seja, uma função intermediária, que é executada entre o disparo da _action_ e o reducer.
 
 ## Configurando Redux Saga
 
