@@ -1,4 +1,4 @@
-<h1 aling="center">Redux & Redux Saga<h1>
+<div align=”center”><h1>Redux & Redux Saga<h1></div>
 
 # Conceitos
 
