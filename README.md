@@ -5,35 +5,24 @@
 
 # Sumário
 
-1.  [Conceitos 1](#_Toc56761150)
-    - [Gerenciamento de estado 1](#_Toc56761151)
-    - [Ferramentas disponíveis 1](#_Toc56761152)
+1.  [Conceitos](#_Toc56761150)
+    - [Gerenciamento de estado](#_Toc56761151)
+    - [Ferramentas disponíveis](#_Toc56761152)
 
-[Redux na prática 2](#_Toc56761153)
+2.  [Redux na prática 2](#_Toc56761153)
 
-[Arquitetura flux 2](#_Toc56761154)
-
-[Configurando Store 3](#_Toc56761155)
-
-[Usando os reducers 4](#_Toc56761156)
-
-[Estado inicial do Reducer 6](#_Toc56761157)
-
-[Criando servidor JSON 7](#_Toc56761158)
-
-[Trabalhando com actions 8](#_Toc56761159)
-
-[Alterando o estado 10](#_Toc56761160)
-
-[Tipagens no redux 10](#_Toc56761161)
-
-[Utilizando Immer 12](#_Toc56761162)
-
-[Aumentando quantidade 13](#_Toc56761163)
-
-[Debugando com o Devtools 14](#_Toc56761164)
-
-[Abstraindo item do catálogo 15](#_Toc56761165)
+    - [Arquitetura flux 2](#_Toc56761154)
+    - [Configurando Store 3](#_Toc56761155)
+    - [Usando os reducers 4](#_Toc56761156)
+    - [Estado inicial do Reducer 6](#_Toc56761157)
+    - [Criando servidor JSON 7](#_Toc56761158)
+    - [Trabalhando com actions 8](#_Toc56761159)
+    - [Alterando o estado 10](#_Toc56761160)
+    - [Tipagens no redux 10](#_Toc56761161)
+    - [Utilizando Immer 12](#_Toc56761162)
+    - [Aumentando quantidade 13](#_Toc56761163)
+    - [Debugando com o Devtools 14](#_Toc56761164)
+    - [Abstraindo item do catálogo 15](#_Toc56761165)
 
 [Redux Saga 16](#_Toc56761166)
 
