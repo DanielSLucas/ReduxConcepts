@@ -2,7 +2,7 @@
 
 <p align=center>Um breve resumo sobre Redux e Redux Saga.</p>
 
-
+**Conhecimentos aprendidos no curso de _Redux_ disponível para os alunos do bootcamp _gostack_.**
 ## Sumário
 
 1.  [Conceitos](#conceitos)
